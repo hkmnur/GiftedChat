@@ -3,6 +3,7 @@ import { View, Text ,StyleSheet} from 'react-native';
 import { Input,Button } from 'react-native-elements';
 import { auth } from '../firebase';
 
+
 const RegisterScreen =({navigation}) =>{
     const [email,setEmail]=useState('');
     const [name,setName]=useState('');
